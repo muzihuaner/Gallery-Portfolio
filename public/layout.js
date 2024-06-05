@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add footer dynamically
     const footer = document.createElement('footer');
-    footer.innerHTML = '<p>© 2024 Power | <a href="https://wiki-power.com" target="_blank">Power\'s Wiki</a></p>';
+    footer.innerHTML = '<p>© 2024 木子欢儿 | <a href="//pic.quickso.cn" target="_blank">摄影与孤独</a></p><br><p class="ssn">一个普遍的误解是，所有摄影师都是具有超凡魅力的，外向的社交名流，他们可以在任何情况下进行自我讨论。<br> 通常，艺术过程会在寂寞的时光中展开。 <br>孤独和纪律可以提高艺术创作的效率，尽管孤独可能具有挑战性和孤独感，但如伯格曼所言，独自工作的决定也是转而面对我们所有人固有的情感，面对自己的人性。</p>';
     document.body.appendChild(footer);
 
     // Add loaded class to images after window load to enable hover effect
